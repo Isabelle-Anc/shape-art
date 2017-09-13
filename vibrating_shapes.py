@@ -20,8 +20,8 @@ class Shape:
         # this creates a random hex string between #000000 and #ffffff
         # we draw it with an outline, so we'll be able to see it on a white background regardless
         self.color = '#{0:0>6x}'.format(random.randint(00,16**6))
-        self.size_1 = random.randint(5,40)
-        self.size_2 = random.randint(5,40)
+        self.size_1 = random.randint(10,40)
+        self.size_2 = random.randint(10,40)
 
     def update(self):
         '''Update current location by speed.'''
